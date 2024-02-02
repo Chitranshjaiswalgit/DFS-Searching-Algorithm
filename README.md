@@ -1,9 +1,9 @@
 # DFS-Searching-Algorithm
 
-The provided Python code demonstrates the application of the Depth-First Search (DFS) algorithm to solve the Romania map traversal problem. It starts from the initial state, "Arad," and systematically explores possible paths to reach the goal state, "Bucharest." The algorithm employs a priority queue, ensuring efficient node exploration based on a priority function. Backtracking is utilized when necessary, and the graph is represented as a collection of cities and connections.
+The python code shows the usage of Depth-First Search (DFS), an algorithm which helps to find the solution for the problem of the Romania map traversal. It begins from the starting point, Arad, and systematically searches the available paths that may lead it to the desired goal, Bucharest. The algorithm uses optimization in the form of a priority function to guide for which nodes to expend the most efforts first. If backtracking is required, input does so and forms the graph as a set of cities and links.
 
-The RomaniaProblem class encapsulates the specifics of the problem domain, including the graph structure and relevant functions such as initial_state, isGoal, children, and actionCost. The code maintains a global_node_id to assign unique identifiers to nodes during exploration.
+The internal structure of the problem domain, including the graph representation, certain functions for the initial state, consequent test of achievement, and calculation of action costs is encapsulated by the RomaniaProblem class. The code has global_node_id that has a unique symbolic identifier to each node whenever it is explored.
 
-Throughout the execution, the algorithm prints information about the processing of nodes, the state dictionary (D), and the priority queue (Q). The priority_function determines the priority of a state based on its distance from the initial state, with a heuristic to prioritize reaching the goal city sooner.
+During the figure of the processing, the algorithm continues to print data on processing node, state dictionary (D), and the priority queue (Q). The priority_function use the distance from the initial state to define priorities, having a heuristic that would result in the sooner reach for the goal city as the priority.
 
-This comprehensive implementation showcases proficiency in graph traversal algorithms, priority queue management, and the design of problem-specific classes to tackle complex problem-solving scenarios.
+This broad implementation highlights the ability to navigate between graph traversal algorithms, maintain the priority queues, and create classes that can effectively meet the challenges of problem solving.
