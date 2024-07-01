@@ -24,7 +24,9 @@ To set up the project:
 
 ## Usage
 Ensure Python 3.x is installed. Run the script:
-- python dfs_searching_algo.py
+
+- python dfs_searching_algo.py.
+  
 This executes the DFS algorithm to find a path from Arad to Bucharest in the Romania map graph.
 
 
