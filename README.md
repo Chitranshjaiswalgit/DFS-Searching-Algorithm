@@ -19,7 +19,7 @@ To set up the project:
 2. Clone or download the repository to your local machine.
       - git clone <https://github.com/jaiswalchitransh/DFS-Searching-Algorithm>
 4. Open the project in your preferred Python environment (e.g., IDE or terminal).
-5. Run the script (`dfs_searching_algo.py`) and observe the output to see the valid coloring of regions.
+5. Run the script (`dfs_searching_algo.py`) and observe the output.
 
 
 ## Usage
