@@ -1,9 +1,42 @@
 # DFS-Searching-Algorithm
 
-The Python code implements a depth-first search (DFS) algorithm to find a path from the city of Arad to Bucharest in Romania. The DFS algorithm is implemented using a priority queue and a dictionary to keep track of nodes and their respective costs. The code begins by initializing a global variable global_node_id to keep track of node IDs. The function get_next_node_id() increments this global variable whenever a new node is encountered.
+## Table of Contents
+- [Project Overview](#project-overview)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Features](#features)
+- [Contribution](#contribution)
 
-The DFS algorithm itself is implemented in the DepthFirstSearch() function. It takes a problem object as input, which defines the initial state, goal state, possible actions, and their associated costs. Inside the function, a dictionary D is used to store the parent node and the cost associated with reaching each state, while a priority queue Q is used to store nodes prioritized based on their costs. The algorithm iteratively explores nodes in the priority queue until the goal state is reached. At each iteration, it pops the node with the lowest cost from the priority queue, checks if it is the goal state, and if not, expands it by considering its child states and their associated costs. The algorithm then updates the dictionary D with the new cost for each child state and adds them to the priority queue. This process continues until the goal state is reached or all possible paths have been explored.
 
-The priority_function() determines the priority of a state based on its distance from the initial state. The RomaniaProblem class defines the problem specific to the map of Romania, including the initial state, goal state, possible actions, and their associated costs.
+## Project Overview
+The Python code implements a depth-first search (DFS) algorithm to find a path from the city of Arad to Bucharest in Romania. The DFS algorithm is implemented using a priority queue and a dictionary to keep track of nodes and their respective costs. The code begins by initializing a global variable `global_node_id` to keep track of node IDs. The function `get_next_node_id()` increments this global variable whenever a new node is encountered.
 
-In the main block, a sample graph representing the map of Romania is defined, and an instance of the RomaniaProblem class is created. The DFS algorithm is then applied to this problem instance, and the resulting path from Arad to Bucharest is printed. Overall, this code demonstrates how DFS can be used to efficiently find a path from one city to another in a graph-based problem such as the map of Romania.
+
+## Installation
+This project requires Python 3.12.1 or later.
+To set up the project:
+1. Ensure Python 3.12.1 or a later version is installed on your system. You can download Python from [python.org](https://www.python.org/downloads/).
+2. Clone or download the repository to your local machine.
+      - git clone <https://github.com/jaiswalchitransh/DFS-Searching-Algorithm>
+4. Open the project in your preferred Python environment (e.g., IDE or terminal).
+5. Run the script (`dfs_search.py`) and observe the output to see the valid coloring of regions.
+
+
+## Usage
+Ensure Python 3.x is installed. Run the script:
+- python dfs_search.py
+This executes the DFS algorithm to find a path from Arad to Bucharest in the Romania map graph.
+
+
+## Features
+- **Implementation**: Implements DFS using a priority queue for efficient pathfinding.
+- **Output**: Outputs the path from Arad to Bucharest.
+- **Demonstration**: Demonstrates dictionary usage for node management and cost calculation.
+
+
+## Contribution
+I, **Chitransh Jaiswal** developed this Project Individually. I was responsible for all aspects of the project, including design, development, testing, and documentation.
+Contributions to improve the efficiency, readability, or functionality of the code are welcome. To contribute:
+- Fork the repository
+- Make your changes
+- Submit a pull request
