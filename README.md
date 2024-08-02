@@ -1,4 +1,4 @@
-# DFS-Searching-Algorithm
+# DFS Searching Algorithm
 
 ## Table of Contents
 - [Project Overview](#project-overview)
